@@ -65,6 +65,26 @@ body {
   border-radius: 4px;
 }
 
+.navbar {
+  /* add some flex properties here */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.image-container {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0px;
+  font-size: 28px;
+  color: #fff;
+  background-color: #264653;
+  padding: 20px;
+}
+
 /* mobile viewport styles */
 @media screen and (max-width: 576px) {
   .form-input {
@@ -73,5 +93,14 @@ body {
 
   .banner-img {
     object-fit: contain;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-item {
+    margin: 20px 0px;
   }
 }
