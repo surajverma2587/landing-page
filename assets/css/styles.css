@@ -29,3 +29,38 @@ body {
   height: 320px;
   object-fit: cover;
 }
+
+.info {
+  padding: 20px;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+.contact-form {
+  box-shadow: 5px 5px 10px rgba(38, 70, 83, 0.4);
+  background-color: #e9c46a;
+  border-radius: 4px;
+  margin: 0px 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.form-input {
+  padding: 10px;
+  width: 50%;
+  border: none;
+}
+
+.form-control {
+  margin: 10px 0;
+}
+
+.btn {
+  border: none;
+  padding: 10px 20px;
+  background-color: #2a9d8f;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 4px;
+}
